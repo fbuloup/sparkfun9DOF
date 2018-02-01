@@ -1,4 +1,4 @@
-# sparkfun9DOF
+# Premier notebook Python avec l'IMU
 
 
 ```python
