@@ -18,7 +18,7 @@ Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini d
 ## Installation du driver
 Installer le driver en suivant ce lien
 
-![png](WindowsDriver.png)
+![png](WindowsDriver.PNG)
 
 
 ## Téléchargement du terminal teraterm et permiers tests
