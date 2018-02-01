@@ -1,4 +1,4 @@
-# Quick start guide du Sparkfun 9DOF sous Windows
+# Anaconda, Jupyter et module port série Python
 
 1. Téléchargement d'Anaconda (Python + Jupyter)
 2. Installation du module série sous Anaconda
