@@ -68,6 +68,7 @@ for row in lines:
     gxs.append(float(gx)); gys.append(float(gy)); gzs.append(float(gz));
     mxs.append(float(mx)); mys.append(float(my)); mzs.append(float(mz));
 ```
+On remarque l'utilisation de la méthode *decode('UTF8')* pour transformer le flux d'octets en chaine de caractères.
 Affichage dans trois graphes (accel, gyro, magneto) :
 
 ```python
