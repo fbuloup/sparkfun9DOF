@@ -6,4 +6,4 @@ Ce dépot présente les configurations et premiers tests d'utilisation de l'IMU 
 2. [Installation de Jupyter](https://github.com/fbuloup/sparkfun9DOF/tree/master/2_Jupyter)
 3. [Premier script python avec l'IMU](https://github.com/fbuloup/sparkfun9DOF/tree/master/3_FirstIMUPythonScript)
 
-Si vous utilisez OSX (ou un *nix*), remplacez l'étape 1 par l'étape 4.
+Si vous utilisez OSX ou Linux, remplacez l'étape 1 par l'étape 4.
