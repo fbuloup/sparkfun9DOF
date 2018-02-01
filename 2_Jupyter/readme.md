@@ -6,7 +6,7 @@
 4. Premier notebook python
 
 ## 1. Téléchargement d'Anaconda (Python + Jupyter)
-En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis installer la distribution Anaconda Python 3.x. Cette étape est relativement longue... patience.
+En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis installer la distribution Anaconda Python 3.x. Cette étape est relativement longue... patience (déjà installé sur les postes des étudiants).
 
 ## 2. Installation du module série sous Anaconda
 Ouvrir une console Anaconda par le menu Window->Anaconda3->Anaconda prompt et suivre cette [procédure](https://github.com/pyserial/pyserial/) d'installation du module série pour Python. Elle consiste essentiellement à taper dans cette console :
