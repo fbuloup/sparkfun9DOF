@@ -9,7 +9,7 @@ ser.port = 'COM3'
 ser
 ```
 
-
+La sortie donne les paramètres de cobfiguration du port :
 
 
     Serial<id=0xa3b5470, open=False>(port='COM3', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
@@ -28,7 +28,7 @@ ser.is_open
 
     True
 
-
+Tout va bien, le port série est ouvert :-)
 
 
 ```python
