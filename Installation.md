@@ -13,7 +13,7 @@ Les étapes sous windows (pas besoin d'être admin) :
 7. Premier notebook python
 
 ## 1. Connection de l'IMU sur un port USB
-Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini l'installer partielle.
+Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini l'installation partielle.
 
 ## 2. Installation du driver
 Terminer cette installation en suivant ce [lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Localiser la portion du document qui présente l'installation du driver sous Windows, comme le montre l'image suivante :
@@ -34,8 +34,10 @@ Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
 
 ## 4. Téléchargement d'Anaconda (Python + Jupyter)
+En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis installer la distribution Anaconda Python 3.x. Cette étape est relativement longue... patience.
 
 ## 5. Installation du module série sous Anaconda
+A partir du menu windows, lancer une console Anacona et taper :
 
 ## 6. Ouverture notebook jupyter
 
