@@ -1,4 +1,4 @@
-# Anaconda, Jupyter et module port série Python
+# Anaconda, module port série Python et notebook Python
 
 1. Téléchargement d'Anaconda (Python + Jupyter)
 2. Installation du module série sous Anaconda
