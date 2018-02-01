@@ -4,8 +4,8 @@ Ce document présente les différentes cellules du script utilisé pour tester l
 # Création et paramétrage du port série
 import serial
 ser = serial.Serial()
-ser.baudrate = 115200
-ser.port = 'COM3'
+ser.baudrate = 115200 
+ser.port = 'COM3' # Ou '/dev/tty.usbmodem1411' par exemple, sous MacOS
 ser
 ```
 
