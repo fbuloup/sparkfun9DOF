@@ -37,6 +37,11 @@ for i in range(0,500):
     line = ser.readline()
     line = line.rstrip()
     lines.append(line)
+print('Première ligne : ' + lines[0].decode('UTF8'))
+# Fermeture connection port série
+ser.flush()
+ser.close()
+ser.is_open
 ```
 Chaque ligne de données à la forme suivante :
 
@@ -44,13 +49,7 @@ Chaque ligne de données à la forme suivante :
     
 C'est une suite d'octets, même si cela ressemble à une chaine de caractères : le charactère b en tête spécifie que c'est une série d'octets.
 
-```python
-# Fermeture connection port série
-ser.close()
-ser.is_open
-```
-
-Il est maintenant fermé, normal :
+Le port série est maintenant fermé, normal :
 
 
     False
