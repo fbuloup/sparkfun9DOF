@@ -20,6 +20,10 @@ Terminer cette installation en suivant ce [lien vers le document qui a servi de 
 
 ![png](WindowsDriver.PNG)
 
+<span style="color:blue">some *blue* text</span>.
+<span style="color:red">some **This is Red Bold.** text</span>
+
+Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide." pour suivre les instructions d'installation du driver.
 
 ## Téléchargement du terminal teraterm et permiers tests
 
