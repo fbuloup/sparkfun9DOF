@@ -9,7 +9,7 @@ Les étapes sont les suivantes (pas besoin d'être admin [à vérifier]) :
 3. Utilisation de la commande screen
 
 ## 1. Connection de l'IMU sur un port USB
-Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini l'installation partielle.
+Connecter le module sur un port USB de l'ordinateur.
 
 ## 2. Recherche du fichier tty associé à l'IMU
 Dans un terminal, taper la commande suivante :
