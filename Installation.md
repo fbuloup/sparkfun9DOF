@@ -6,7 +6,7 @@ Les étapes sous windows (pas besoin d'être admin) :
 
 1. Connection de l'IMU sur un port USB
 2. Installation du driver
-3. Téléchargement du terminal teraterm et permiers tests
+3. Téléchargement du Tera Term's et permiers tests
 4. Téléchargement d'Anaconda (Python + Jupyter)
 5. Installation du module série sous Anaconda
 6. Ouverture notebook jupyter
@@ -20,9 +20,10 @@ Terminer cette installation en suivant ce [lien vers le document qui a servi de 
 
 ![Windows driver](WindowsDriver.PNG)
 
-Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide." pour suivre les instructions d'installation du driver.
+Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide" pour suivre les instructions d'installation du driver.
 
-## Téléchargement du terminal teraterm et permiers tests
+## Téléchargement du Tera Term's et permiers tests
+Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données dervraient s'afficher en temps réel dans le terminal.
 
 ## Téléchargement d'Anaconda (Python + Jupyter)
 
