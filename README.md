@@ -2,6 +2,6 @@
 
 Ce dépot présente les configurations et premiers tests d'utilisation de l'IMU sparkfun. Pour reproduire ces tests, il suffit de suivre les trois étapes suivantes :
 
-1. dsf
-2. fdsf
-3. fdsf
+1. [Installation sous Windows](https://github.com/fbuloup/sparkfun9DOF/tree/master/1_WindowsInstallation)
+2. [Installation de Jupyter](https://github.com/fbuloup/sparkfun9DOF/tree/master/2_Jupyter)
+3. [Premier script python avec l'IMU](https://github.com/fbuloup/sparkfun9DOF/tree/master/3_FirstIMUPythonScript)
