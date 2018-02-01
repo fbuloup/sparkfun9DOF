@@ -69,7 +69,7 @@ for row in lines:
     gxs.append(float(gx)); gys.append(float(gy)); gzs.append(float(gz));
     mxs.append(float(mx)); mys.append(float(my)); mzs.append(float(mz));
 ```
-AFfichage dans trois graphes (accel, gyro, magneto) :
+Affichage dans trois graphes (accel, gyro, magneto) :
 
 ```python
 # Affichage des accélérations
