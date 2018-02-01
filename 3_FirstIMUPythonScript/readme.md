@@ -9,7 +9,7 @@ ser.port = 'COM3'
 ser
 ```
 
-La sortie donne les paramètres de cobfiguration du port :
+La sortie donne les paramètres de configuration du port :
 
 
     Serial<id=0xa3b5470, open=False>(port='COM3', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
@@ -23,13 +23,12 @@ ser.open()
 ser.is_open
 ```
 
-
+Tout va bien, le port série est ouvert :-) :
 
 
     True
 
-Tout va bien, le port série est ouvert :-)
-
+500 échantillons des neuf canaux à 100Hz : cinq secondes de données : 
 
 ```python
 # Lecture et accumulation de 500 frames de données (temps, ax, ay, az, gx, gy, gz, mx, my, mz)
@@ -47,7 +46,7 @@ ser.close()
 ser.is_open
 ```
 
-
+Il est maintenant fermé, normal :
 
 
     False
