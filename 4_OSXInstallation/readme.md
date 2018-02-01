@@ -27,6 +27,7 @@ Lancer dans ce terminal la commande suivante :
 Si la petite led bleu du module clignote, vous devriez voir le flux de données. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
 
     (SPACE) – Pause/resume serial port printing
+    t - turn time reading on or off
     a – Turn accelerometer readings on or off
     g – Turn gyroscope readings on or off
     m – Turn magnetometer readings on or off
@@ -34,7 +35,15 @@ Si la petite led bleu du module clignote, vous devriez voir le flux de données.
     A – Adjust accelerometer full-scale range. Cycles between ± 2, 4, 8, and 16g.
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
 
-Pour quitter, appuyer simultanément sur Ctrl+C puis taper cette commande :
+Pour quitter, fermer violament le terminal et dans un autre taper la commande :
 
     ps -a
-pour identifier le processus lancé.
+pour identifier le processus lancé à tuer. Vous aurez par exemple :
+
+    894 ttys001    0:00.03 login -pf frank
+    895 ttys001    0:00.02 -bash
+    920 ttys001    0:00.00 ps -a
+    878 tty.usbmodem1411   0:00.25 SCREEN /dev/tty.usbmodem1411 115200
+Identifier alors le processus associé à SCREEN et tuez le. Dans l'exemple :
+
+    kill 878
