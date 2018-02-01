@@ -1,5 +1,5 @@
 # Premier notebook Python avec l'IMU
-Ce document présente les différentes céllules du script utilisé pour tester le module. Le code source est présent dans le fichier Serial.ipynb. Il est possible de l'importer dans le notebook. L'IMU était cadencé à 100Hz.
+Ce document présente les différentes cellules du script utilisé pour tester le module. Le code source est présent dans le fichier Serial.ipynb. Il est possible de l'importer dans le notebook. L'IMU était cadencé à 100Hz.
 ```python
 # Création et paramétrage du port série
 import serial
