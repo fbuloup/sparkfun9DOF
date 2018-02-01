@@ -35,7 +35,7 @@ Si la petite led bleu du module clignote, vous devriez voir le flux de données.
     A – Adjust accelerometer full-scale range. Cycles between ± 2, 4, 8, and 16g.
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
 
-Pour quitter, fermer violament le terminal et dans un autre taper la commande :
+Pour quitter, fermer violemment le terminal et dans un nouveau terminal taper la commande :
 
     ps -a
 pour identifier le processus lancé à tuer. Vous aurez par exemple :
