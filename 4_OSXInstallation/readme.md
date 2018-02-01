@@ -47,3 +47,4 @@ pour identifier le processus lancé à tuer. Vous aurez par exemple :
 Identifier alors le processus associé à SCREEN et tuez le. Dans l'exemple :
 
     kill 878
+Si vous ne tuez pas le processus, vous ne pourrez plus ouvrir de communications avec le module.
