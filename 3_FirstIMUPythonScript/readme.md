@@ -52,7 +52,7 @@ Il est maintenant fermé, normal :
     False
 
 
-
+Analyse des données accumulées :
 
 ```python
 # Décodage des 500 frames
@@ -65,7 +65,7 @@ for row in lines:
     gxs.append(float(gx)); gys.append(float(gy)); gzs.append(float(gz));
     mxs.append(float(mx)); mys.append(float(my)); mzs.append(float(mz));
 ```
-
+AFfichage dans trois graphes (accel, gyro, magneto) :
 
 ```python
 # Affichage des accélérations
