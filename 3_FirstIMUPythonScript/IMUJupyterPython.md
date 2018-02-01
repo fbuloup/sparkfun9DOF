@@ -1,6 +1,7 @@
 
 
 ```python
+# Création et paramétrage du port série
 import serial
 ser = serial.Serial()
 ser.baudrate = 115200
@@ -8,28 +9,14 @@ ser.port = '/dev/tty.usbmodem1411'
 ser
 ```
 
-
-
-
     Serial<id=0x1174eada0, open=False>(port='/dev/tty.usbmodem1411', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
-
-
-
-
 ```python
 # Ouverture connection au port série
 ser.open()
 ser.is_open
 ```
 
-
-
-
     True
-
-
-
-
 ```python
 # Lecture et accumulation de 500 frames de données (temps, ax, ay, az, gx, gy, gz, mx, my, mz)
 lines = []
@@ -38,23 +25,15 @@ for i in range(0,500):
     line = line.rstrip()
     lines.append(line)
 print('Première ligne : ' + lines[0].decode('UTF8'))
-# Fermeture connection port série
+# Fermeture connection port série dans la foulée
 ser.flush()
 ser.close()
 ser.is_open
 ```
 
     Première ligne : 3385701, 0.56, 1.83, -1.45, -73.29, -188.60, 92.68, 76.07, -61.67, -69.02
-
-
-
-
-
+    
     False
-
-
-
-
 ```python
 # Décodage des 500 frames
 time0 = lines[0].decode('UTF8').split(',')[0]
