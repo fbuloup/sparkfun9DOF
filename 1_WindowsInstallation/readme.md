@@ -22,6 +22,7 @@ Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharge
 Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données dervraient s'afficher en temps réel dans le terminal. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
 
     (SPACE) – Pause/resume serial port printing
+    t - turn time readin on or off
     a – Turn accelerometer readings on or off
     g – Turn gyroscope readings on or off
     m – Turn magnetometer readings on or off
