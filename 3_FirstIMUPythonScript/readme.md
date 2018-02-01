@@ -28,7 +28,7 @@ Tout va bien, le port série est ouvert :-) :
 
     True
 
-500 échantillons des neuf canaux à 100Hz : cinq secondes de données : 
+500 échantillons des neuf canaux à 100Hz, c.a.d. cinq secondes de données : 
 
 ```python
 # Lecture et accumulation de 500 frames de données (temps, ax, ay, az, gx, gy, gz, mx, my, mz)
