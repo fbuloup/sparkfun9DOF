@@ -38,7 +38,7 @@ for i in range(0,500):
     line = line.rstrip()
     lines.append(line)
 print('Première ligne : ' + lines[0].decode('UTF8'))
-# Fermeture connection port série
+# Fermeture connection port série dans la foulée
 ser.flush()
 ser.close()
 ser.is_open
