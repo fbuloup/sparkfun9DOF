@@ -46,6 +46,11 @@ Toujours dans cette console taper :
 
     jupyter notebook
 
-pour ouvrir le notebook dans le navigateur par défaut.
+Cette commande ouvre, après quelques secondes, le notebook dans le navigateur par défaut.
 
 ## 7. Premier notebook python
+Dans le navigateur, cliquer sur le bouton new puis Python 3 :
+
+![Python Notebook](newPythonNoteBook.PNG)
+
+
