@@ -23,7 +23,21 @@ Terminer cette installation en suivant ce [lien vers le document qui a servi de 
 Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide" pour suivre les instructions d'installation du driver.
 
 ## Téléchargement du Tera Term's et permiers tests
-Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données dervraient s'afficher en temps réel dans le terminal.
+Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données dervraient s'afficher en temps réel dans le terminal. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
+The string can be modified by sending any of the following commands:
+
+    (SPACE) – Pause/resume serial port printing
+    a – Turn accelerometer readings on or off
+    g – Turn gyroscope readings on or off
+    m – Turn magnetometer readings on or off
+    q – Turn quaternion readings on or off (qw, qx, qy, and qz are printed after mag readings)
+    e – Turn Euler angle calculations (pitch, roll, yaw) on or off (printed after quaternions)
+    c – Switch to/from calculated values from/to raw readings
+    r – Adjust log rate in 10Hz increments between 1-100Hz (1, 10, 20, …, 100)
+    A – Adjust accelerometer full-scale range. Cycles between ± 2, 4, 8, and 16g.
+    G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
+    s – Enable/disable SD card logging
+
 
 ## Téléchargement d'Anaconda (Python + Jupyter)
 
