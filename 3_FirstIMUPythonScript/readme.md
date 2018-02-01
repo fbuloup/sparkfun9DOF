@@ -1,7 +1,5 @@
 # Premier notebook Python avec l'IMU
-
-Serial.ipynb est le code source du "notebook jupyter python script" :-| Il est possible de l'importer dans le notebook. Ce document présente les différentes céllules de ce script.
-
+Ce document présente les différentes céllules du script utilisé pour tester le module. Le code source est présent dans le fichier Serial.ipynb. Il est possible de l'importer dans le notebook. 
 ```python
 # Création et paramétrage du port série
 import serial
