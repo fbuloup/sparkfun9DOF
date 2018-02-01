@@ -12,6 +12,7 @@ En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis ins
 Ouvrir une console Anaconda par le menu Window->Anaconda3->Anaconda Prompt et suivre cette [procédure](https://github.com/pyserial/pyserial/) d'installation du module série pour Python. Elle consiste essentiellement à taper dans cette console :
 
     pip install pyserial 
+Sous MacOS vous pouvez taper cette commande dans un terminal (console) classique.
 
 ## 3. Ouverture notebook jupyter
 Toujours dans cette console taper :
