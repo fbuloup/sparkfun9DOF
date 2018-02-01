@@ -1,4 +1,4 @@
-# Quick start guide du Sparkfun 9DOF sous Windows
+# Guide d'installation du Sparkfun 9DOF sous Windows
 
 [Lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239)
 
