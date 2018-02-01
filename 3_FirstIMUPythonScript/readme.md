@@ -38,7 +38,11 @@ for i in range(0,500):
     line = line.rstrip()
     lines.append(line)
 ```
+Chaque ligne de données à la forme suivante :
 
+    b'55932, 0.88, -0.05, -0.52, -1.95, 1.28, -3.17, 57.16, -64.07, -52.36'
+    
+C'est une suite d'octets, même si cela ressemble à une chaine de caractères : le charactère b en tête spécifie que c'est une série d'octets.
 
 ```python
 # Fermeture connection port série
