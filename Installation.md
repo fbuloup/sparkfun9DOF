@@ -37,7 +37,7 @@ Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2
 En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis installer la distribution Anaconda Python 3.x. Cette étape est relativement longue... patience.
 
 ## 5. Installation du module série sous Anaconda
-A partir du menu windows, lancer une console Anacona et taper :
+Ouvrir une console Anaconda par le menu Window->Anaconda3->Anaconda prompt et suivre cette [procédure](https://github.com/pyserial/pyserial/) d'installation du module série pour Python.
 
 ## 6. Ouverture notebook jupyter
 
