@@ -16,10 +16,10 @@ Terminer cette installation en suivant ce [lien vers le document qui a servi de 
 
 ![Windows driver](WindowsDriver.PNG)
 
-Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide" pour suivre les instructions d'installation du driver.
+Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide" pour suivre les instructions d'installation du driver. Si au final la petite led bleu du module clignote, vous devriez être sur la bonne voie.
 
 ## 3. Téléchargement du Tera Term's et permiers tests
-Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données dervraient s'afficher en temps réel dans le terminal. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
+Télécharger le logiciel en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's et choisir le bouton radio Serial et cliquer sur OK. Les données devraient s'afficher en temps réel dans le terminal. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
 
     (SPACE) – Pause/resume serial port printing
     t - turn time readin on or off
