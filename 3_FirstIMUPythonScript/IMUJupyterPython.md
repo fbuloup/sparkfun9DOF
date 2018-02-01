@@ -62,7 +62,7 @@ plt.show()
 ```
 
 
-![png](output_4_0.png)
+![png](output_5_0.png)
 
 
 
@@ -80,7 +80,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](output_6_0.png)
 
 
 
@@ -98,5 +98,5 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](output_7_0.png)
 
