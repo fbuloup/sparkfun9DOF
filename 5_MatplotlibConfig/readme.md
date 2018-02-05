@@ -1,6 +1,6 @@
 ## Configuration de l'affichage de Matplotlib
 Pour un affichage des graphiques dans le notebook de Jupyter qui fonctionne en export PDF si latex est installé dans le système, 
-il faut ajouter la ligne suivant avant les plots :
+il faut ajouter la ligne suivante avant tout affichage :
 
     %matplotlib inline
 
