@@ -10,4 +10,4 @@ Pour avoir des graphiques interactifs :
 ou
 
     %matplotlib notebook
-Mais dans ce cas, l'export PDF ne comportera plus les graphiques.
+Mais dans ce cas, l'export PDF ne comportera plus les graphiques (mode non supporté par Latex).
