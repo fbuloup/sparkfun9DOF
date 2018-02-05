@@ -4,7 +4,7 @@ il faut ajouter la ligne suivant avant les plots :
 
     %matplotlib inline
 
-Pour avoir des graphiques interactifs
+Pour avoir des graphiques interactifs :
 
     %matplotlib nbagg
 ou
