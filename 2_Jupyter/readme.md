@@ -21,7 +21,12 @@ De la même manière, installer jupyter en tapant cette commande, toujours dans 
     pip3 install jupyter
     
 ## 4. Quelques vérifications
+Pour vérifier que le noyau Python pour Jupiter a été correctement installé, taper la commande suivante :
 
+    jupyter kernelspec list
+Pour vérifier que les modules numpy, scipy, matplotlib et pyserial sont également installlés, taper :
+
+    pip3 list 
 
 ## 5. Ouverture notebook jupyter
 Toujours dans cette console taper :
