@@ -2,7 +2,7 @@
 
 [Lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239)
 
-Les étapes sous windows (pas besoin d'être admin [à vérifier]) :
+Les étapes sous windows :
 
 1. Connection de l'IMU sur un port USB
 2. Optionnel : installation du driver (nécessite droits administrateur sur la machine)
@@ -12,7 +12,7 @@ Les étapes sous windows (pas besoin d'être admin [à vérifier]) :
 Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini l'installation partielle.
 
 ## 2. Optionnel : Installation du driver (nécessite droits administrateur sur la machine)
-Terminer cette installation en suivant ce [lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Localiser la portion du document qui présente l'installation du driver sous Windows, comme le montre l'image suivante :
+Le module semble fonctionner même si le driver conseillé par Sparkfun n'est pas installé. En cas de problème, il est possible d'installer ce driver en ayant les droits administrateur. Vous pouvez donc terminer cette installation en suivant ce [lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Localiser la portion du document qui présente l'installation du driver sous Windows, comme le montre l'image suivante :
 
 ![Windows driver](WindowsDriver.PNG)
 
