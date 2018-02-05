@@ -5,13 +5,13 @@
 Les étapes sous windows (pas besoin d'être admin [à vérifier]) :
 
 1. Connection de l'IMU sur un port USB
-2. Installation du driver
+2. Optionnel : installation du driver (nécessite droits administrateur sur la machine)
 3. Téléchargement du Tera Term's et permiers tests
 
 ## 1. Connection de l'IMU sur un port USB
 Connecter le module sur un port USB de l'ordinateur et attendre qu'il ait fini l'installation partielle.
 
-## 2. Installation du driver
+## 2. Optionnel : Installation du driver (nécessite droits administrateur sur la machine)
 Terminer cette installation en suivant ce [lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Localiser la portion du document qui présente l'installation du driver sous Windows, comme le montre l'image suivante :
 
 ![Windows driver](WindowsDriver.PNG)
