@@ -26,8 +26,8 @@ Installer num scipy matplotlib
 pip3 install num scipy matplotlib
 
 
-Pour afficher graphique dans notebook:
+Pour afficher graphique dans notebook: marche avec l'export PDF
 %matplotlib inline
 
-Pour graphique interactif:
+Pour graphique interactif: attention ne supporte pas l'export PDF
 %matplotlib nbagg
