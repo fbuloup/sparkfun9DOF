@@ -6,3 +6,21 @@ Installer seulement pour un utilisateur
 Ajouter path
 Cliquer sur install now
 Fermer
+
+Installation de Jupyter
+Dans une console windows
+pip3 install jupyter
+
+Lancer Jupyter
+Dans une console windows
+jupyter notebook
+pour quitter notebook Ctrl+C dans la console
+
+Voir liste noyaux jupyter installés
+jupyter kernelspec list
+
+Voir liste module python installé
+pip3 list 
+
+Installer num scipy matplotlib
+pip3 install num scipy matplotlib
