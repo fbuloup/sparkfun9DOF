@@ -24,3 +24,10 @@ pip3 list
 
 Installer num scipy matplotlib
 pip3 install num scipy matplotlib
+
+
+Pour afficher graphique dans notebook:
+%matplotlib inline
+
+Pour graphique interactif:
+%matplotlib nbagg
