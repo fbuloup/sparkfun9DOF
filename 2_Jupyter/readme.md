@@ -1,27 +1,32 @@
-# Anaconda, module port série Python et notebook Python
+# Configuration de Python et Jupyter
 
-1. Téléchargement d'Anaconda (Python + Jupyter)
-2. Installation du module série sous Anaconda
-3. Ouverture notebook jupyter
-4. Premier notebook python
+1. Téléchargement de Python
+2. Installation des modules numpy, scipy, matplotlib et pyserie
+3. Installation de Jupyter
+4. Ouverture notebook jupyter
+5. Premier notebook python
 
-## 1. Téléchargement d'Anaconda (Python + Jupyter)
-En suivant ce [lien,](https://www.anaconda.com/download/) télécharger puis installer la distribution Anaconda Python 3.x. Cette étape est relativement longue... patience (déjà installé sur les postes des étudiants).
+## 1. Téléchargement de Python
+En suivant ce [lien,](https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe) télécharger la distribution Python 3.6.4. Si nécessaire, visitez le site [suivant](https://www.python.org/downloads/windows/) pour une autre version Windows. Une fois l'exécutable téléchargé, lancez-le puis spécifier une installation pour un seul utilisateur, ajoutez le chemin Python au Path windows avant de cliquez sur "Installer maintenant". En fin d'installation, cliquez sur "Fermer".
 
-## 2. Installation du module série sous Anaconda
-Ouvrir une console Anaconda par le menu Window->Anaconda3->Anaconda Prompt et suivre cette [procédure](https://github.com/pyserial/pyserial/) d'installation du module série pour Python. Elle consiste essentiellement à taper dans cette console :
+## 2. Installation des modules numpy, scipy, matplotlib et pyserial
+Pour installer ces modules, il suffit de taper la commande suivante dans une console windows :
 
-    pip install pyserial 
-Sous MacOS vous pouvez taper cette commande dans un terminal (console) classique.
+    pip3 install numpy scipy matplotlib pyserial
+    
+## 3. Installation de Jupyter
+De la même manière, installer jupyter en tapant cette commande, toujours dans une console windows :
 
-## 3. Ouverture notebook jupyter
+    pip3 install jupyter
+
+## 4. Ouverture notebook jupyter
 Toujours dans cette console taper :
 
     jupyter notebook
 
 Cette commande ouvre, après quelques secondes, le notebook dans le navigateur par défaut.
 
-## 4. Premier notebook python
+## 5. Premier notebook python
 Dans le navigateur, cliquer sur le bouton new puis Python 3 :
 
 ![Python Notebook](newPythonNoteBook.PNG)
