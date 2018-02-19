@@ -18,7 +18,7 @@ Dans un terminal, taper la commande suivante :
 Vous devriez obtenir une réponse du type suivant :
 
     /dev/tty.Bluetooth-Incoming-Port	/dev/tty.usbmodem1411
-L'IMU est attaché à /dev/tty.usbmodem1411
+Dans cet example, l'IMU est attaché à /dev/tty.usbmodem1411
 
 ## 3. Utilisation de la commande screen
 Lancer dans ce terminal la commande suivante :
