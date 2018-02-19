@@ -8,7 +8,7 @@
 6. Premier notebook python
 
 ## 1. Téléchargement de Python
-En suivant ce [lien,](https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe) télécharger la distribution Python 3.6.4. Si nécessaire, visitez le site [suivant](https://www.python.org/downloads/windows/) pour une autre version Windows. Une fois l'exécutable téléchargé, lancez-le puis spécifier une installation pour un seul utilisateur, sélectionnez l'option qui permet d'ajoutez le chemin Python au Path windows avant de cliquez sur "Installer maintenant". En fin d'installation, cliquez sur "Fermer".
+En suivant ce [lien,](https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe) télécharger la distribution Python 3.6.4. Si nécessaire, visitez le site [suivant](https://www.python.org/downloads/windows/) pour une autre version Windows ou pour une version Mac ou Linux. Une fois l'exécutable téléchargé, lancez-le puis spécifier une installation pour un seul utilisateur, sélectionnez l'option qui permet d'ajoutez le chemin Python au Path windows avant de cliquez sur "Installer maintenant". En fin d'installation, cliquez sur "Fermer".
 
 ## 2. Installation des modules numpy, scipy, matplotlib et pyserial
 Pour installer ces modules, il suffit de taper la commande suivante dans une console windows :
