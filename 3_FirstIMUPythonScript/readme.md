@@ -92,7 +92,7 @@ plt.show()
 
 ```python
 # Affichage des gyros
-plt.figure(1)
+plt.figure(2)
 plt.title('Giro (°/s)')
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
@@ -110,7 +110,7 @@ plt.show()
 
 ```python
 # Affichage des magnétos
-plt.figure(1)
+plt.figure(3)
 plt.title('Mag (uT)')
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
