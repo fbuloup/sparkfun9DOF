@@ -29,11 +29,11 @@ Pour vérifier que les modules numpy, scipy, matplotlib et pyserial sont égalem
     pip3 list 
 
 ## 5. Ouverture notebook jupyter
-Toujours dans cette console taper :
+Toujours dans cette console taper à partir d'un répertoir ou vous avez les droits d'écriture :
 
     jupyter notebook
 
-Cette commande ouvre, après quelques secondes, le notebook dans le navigateur par défaut. Pour quitter correctement Jupyter, il faut taper Ctrl+C dans la console à partir de laquelle il a été lancé.
+Cette commande ouvre, après quelques secondes, le notebook dans le navigateur par défaut. Pour quitter correctement Jupyter, il faut taper Ctrl+C dans la console à partir de laquelle il a été lancé. 
 
 ## 6. Premier notebook python
 Dans le navigateur, cliquer sur le bouton new puis Python 3 :
