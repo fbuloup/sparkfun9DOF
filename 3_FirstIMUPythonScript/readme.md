@@ -72,6 +72,8 @@ On remarque l'utilisation de la méthode *decode('UTF8')* pour transformer le fl
 Affichage dans trois graphes (accel, gyro, magneto) :
 
 ```python
+# Pour inclure les graphiques dans le notebook
+%matplotlib inline
 # Affichage des accélérations
 import matplotlib.pyplot as plt
 plt.figure(1)
