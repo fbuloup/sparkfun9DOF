@@ -34,6 +34,7 @@ Toujours dans cette console tapez, à partir d'un répertoir ou vous avez les dr
     jupyter notebook
 
 **Si vous n'avez pas les droits d'écriture dans le répertoire à partir duquel vous lancez le notebook Jupyter, vous ne pourrez pas contiuner...**
+
 Cette commande ouvre, après quelques secondes, le notebook dans le navigateur par défaut. Pour quitter correctement Jupyter, il faut taper Ctrl+C dans la console à partir de laquelle il a été lancé. 
 
 ## 6. Premier notebook python
