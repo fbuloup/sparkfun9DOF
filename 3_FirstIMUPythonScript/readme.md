@@ -95,7 +95,7 @@ plt.show()
 ```python
 # Affichage des gyros
 plt.figure(2)
-plt.title('Giro (°/s)')
+plt.title('Gyro (°/s)')
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
 plt.plot(times, gxs, label = 'gx')
