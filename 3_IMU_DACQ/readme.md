@@ -148,6 +148,6 @@ Le fichier *data.txt* devrait ressembler à ça :
     189221, 0.02, 0.01, 0.98, -0.18, 0.73, 0.06, 66.17, -10.35, 2.70
     ...
     
-On peut ouvrir ce fichier sous Matlab en utilisant la commande suivante :
+On peut ouvrir ce fichier sous Matlab  ou  [Octave](https://www.gnu.org/software/octave/) en utilisant la commande suivante :
 
     values = dlmread('data.txt', ',', 1, 0);
