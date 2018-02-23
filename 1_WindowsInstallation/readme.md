@@ -4,11 +4,11 @@
 
 Les étapes sous windows :
 
-1. Connection de l'IMU sur un port USB
+1. Connection de la centrale (l'IMU) sur un port USB
 2. Optionnel : installation du driver (nécessite droits administrateur sur la machine)
 3. Téléchargement du Tera Term's et permiers tests
 
-## 1. Connection de l'IMU sur un port USB
+## 1. Connection de la centrale sur un port USB
 Connecter le module sur un port USB de l'ordinateur et attendre qu'il soit bien reconnu par Windows.
 
 ## 2. Optionnel : Installation du driver (nécessite droits administrateur sur la machine)
