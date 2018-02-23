@@ -1,5 +1,5 @@
 # Premier notebook Python avec l'IMU
-Ce document présente les différentes cellules du script utilisé pour tester le module. Le code source est présent dans le fichier IMUJupyterPython.ipynb. Il est possible de l'importer dans le notebook. L'IMU était cadencé à 100Hz.
+Ce document présente les différentes cellules du script utilisé pour tester le module. Le code source est directement accessible à partir du fichier IMUJupyterPython.ipynb. Il est possible de l'importer dans le notebook. L'IMU était cadencé à 100Hz.
 ```python
 # Création et paramétrage du port série
 import serial
@@ -126,3 +126,13 @@ plt.show()
 
 ![png](output_7_0.png)
 
+Écriture des données dans un fichier texte avec des virgules comme séparateur :
+
+```python
+# Écriture dans un fichier texte csv
+file = open("data.txt", "w")
+file.write("time (ms), xAccel (g), yAccel (g), zAccel (g), xGyro (°/s), yGyro(°/s), zGyro(°/s), xMagneto (uT), yMagneto(uT), zMagneto(uT)" + "\n")
+for row in lines:
+    file.write(row.decode('UTF-8') + "\n")
+file.close()
+```
