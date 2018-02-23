@@ -3,7 +3,7 @@
 Le Sparkfun 9DOF est une central inertielle à neuf degrès de libertés. Elle embarque trois types de capteurs :
 
 1. accéléromètre
-2. giromètre
+2. gyromètre
 3. magnétomètre
 
 Ces capteurs délivrent leurs informations sur les trois axes de l'espace.
