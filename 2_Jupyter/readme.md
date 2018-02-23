@@ -24,7 +24,7 @@ De la même manière, installez Jupyter en tapant cette commande, toujours dans 
 Pour vérifier que le noyau Python pour Jupiter a été correctement installé, tapez la commande suivante :
 
     jupyter kernelspec list
-Pour vérifier que les modules numpy, scipy, matplotlib et pyserial sont également installés, tapez :
+Pour vérifier que les modules numpy, scipy, matplotlib, pyserial et jupyter sont également installés, tapez :
 
     pip3 list 
 
