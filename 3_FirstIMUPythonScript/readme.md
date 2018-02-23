@@ -137,7 +137,7 @@ for row in lines:
 file.close()
 ```
 
-Le fichier *data.txt* devrait resembler à ça :
+Le fichier *data.txt* devrait ressembler à ça :
 
     time (ms), xAccel (g), yAccel (g), zAccel (g), xGyro (°/s), yGyro(°/s), zGyro(°/s), xMagneto (uT), yMagneto(uT), zMagneto(uT)
     189171, 0.02, 0.01, 0.98, -0.24, 0.61, 0.06, 65.42, -11.40, 3.45
