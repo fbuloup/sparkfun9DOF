@@ -1,4 +1,4 @@
-# Dépot des tests avec le Sparkfun 3DOF
+# Tests du Sparkfun 9DOF
 
 Ce dépot présente les configurations et premiers tests d'utilisation de l'IMU sparkfun. Pour reproduire ces tests, il suffit de suivre les trois étapes suivantes :
 
