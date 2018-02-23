@@ -151,3 +151,5 @@ Le fichier *data.txt* devrait ressembler à ça :
 On peut ouvrir ce fichier sous Matlab  ou  [Octave](https://www.gnu.org/software/octave/) en utilisant la commande suivante :
 
     values = dlmread('data.txt', ',', 1, 0);
+
+Enjoy ;-)
