@@ -147,3 +147,9 @@ Le fichier *data.txt* devrait ressembler à ça :
     189211, 0.02, 0.02, 0.99, -0.24, 0.67, 0.06, 64.97, -10.35, 3.45
     189221, 0.02, 0.01, 0.98, -0.18, 0.73, 0.06, 66.17, -10.35, 2.70
     ...
+    
+On peut réouvrir ce fichier sous Matlab en utilisant la commande suivante :
+
+    ```matlab
+    values = dlmread('data.txt', ',', 1, 0);
+    ```
