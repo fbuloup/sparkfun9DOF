@@ -29,7 +29,7 @@ Pour vérifier que les modules numpy, scipy, matplotlib et pyserial sont égalem
     pip3 list 
 
 ## 5. Ouverture notebook jupyter
-Toujours dans ce terminal tapez, à partir d'un répertoir ou vous avez les droits d'écriture :
+Toujours dans ce terminal tapez, à partir d'un répertoir où vous avez les droits d'écriture :
 
     jupyter notebook
 
