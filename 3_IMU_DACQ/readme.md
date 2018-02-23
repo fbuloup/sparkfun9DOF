@@ -5,7 +5,7 @@ Ce document présente les différentes cellules du script utilisé pour tester l
 import serial
 ser = serial.Serial()
 ser.baudrate = 115200 
-ser.port = 'COM3' # Ou '/dev/tty.usbmodem1411' par exemple, sous MacOS
+ser.port = 'COM3' # Ou '/dev/tty.usbmodem1411' par exemple, sous MacOS et Linux
 ser
 ```
 
