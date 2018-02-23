@@ -152,4 +152,4 @@ On peut ouvrir ce fichier sous Matlab  ou  [Octave](https://www.gnu.org/software
 
     values = dlmread('data.txt', ',', 1, 0);
 
-Enjoy ;-)
+Enjoy :-)
