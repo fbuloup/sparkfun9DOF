@@ -1,4 +1,4 @@
-# Tests du Sparkfun 9DOF
+# Installation ey test du Sparkfun 9DOF
 
 Le Sparkfun 9DOF est une central inertielle à neuf degrès de libertés. Elle embarque trois types de capteurs :
 
