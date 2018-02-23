@@ -88,7 +88,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](accel.png)
 
 
 
@@ -106,7 +106,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](gyro.png)
 
 
 
@@ -124,7 +124,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](magneto.png)
 
 Écriture des données dans un fichier texte avec des virgules comme séparateur :
 
