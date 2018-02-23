@@ -1,5 +1,11 @@
 # Tests du Sparkfun 9DOF
 
+Le Sparkfun 9DOF est une central inertielle à neuf degrès de libertés. Elle embarque trois types de capteurs 
+
+1. accéléromètre
+2. giromètre
+3. magnétomètre
+
 Ce dépot présente les configurations et premiers tests d'utilisation de l'IMU sparkfun. Pour reproduire ces tests, il suffit de suivre les trois étapes suivantes :
 
 1. [Installation sous Windows](https://github.com/fbuloup/sparkfun9DOF/tree/master/1_WindowsInstallation)
