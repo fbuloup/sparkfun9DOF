@@ -30,4 +30,4 @@ S'il n'y a pas de terminal série sur votre système windows, vous pouvez télé
     A – Adjust accelerometer full-scale range. Cycles between ± 2, 4, 8, and 16g.
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
 
-Lorsque vous aver terminé de vous familiariser avec les différentes commandes, n'oubliez pas de fermer Tera Term's en notant le numéro du port série (COMx) que vous avez utilisé, ce sera utile dans les scripts Python.
+Lorsque vous avez terminé de vous familiariser avec les différentes commandes, n'oubliez pas de fermer Tera Term's en notant le numéro du port série (COMx) que vous avez utilisé, ce sera utile dans les scripts Python.
