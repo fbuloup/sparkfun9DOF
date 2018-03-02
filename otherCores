@@ -1,3 +1,5 @@
+source : https://github.com/JuliaLang/IJulia.jl
+
 telecharger et installer julia de https://julialang.org/downloads/ 
 
 which jupyter => jupyter_path
