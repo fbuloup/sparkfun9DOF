@@ -3,4 +3,4 @@ telecharger et installer julia de https://julialang.org/downloads/
 which jupyter => jupyter_path
 
 ENV["JUPYTER"] = jupyter_path
-Pkg.build("IJulia")
+Pkg.add("IJulia")
