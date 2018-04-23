@@ -35,16 +35,13 @@ Si la petite led bleu du module clignote, vous devriez voir le flux de données.
     A – Adjust accelerometer full-scale range. Cycles between ± 2, 4, 8, and 16g.
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
 
-Pour quitter, fermer violemment le terminal et dans un nouveau terminal taper la commande :
+Pour fermer la session screen, taper la combinaison de touche suivante dans le terminal :
 
-    ps -a
-pour identifier le processus lancé à tuer. Vous aurez par exemple :
+    Ctrl + a + k
+Pour détacher la terminal de la session screen, taper la combinaison suivante :
 
-    894 ttys001    0:00.03 login -pf frank
-    895 ttys001    0:00.02 -bash
-    920 ttys001    0:00.00 ps -a
-    878 tty.usbmodem1411   0:00.25 SCREEN /dev/tty.usbmodem1411 115200
-Identifier alors le processus associé à SCREEN et tuez le. Dans l'exemple :
+    Ctrl + a + d
+Pour se ratacher à la session screen, taper
 
-    kill 878
-Si vous ne tuez pas le processus, vous ne pourrez plus ouvrir de communications avec le module.
+    screen -r
+
