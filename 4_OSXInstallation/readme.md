@@ -37,10 +37,10 @@ Si la petite led bleu du module clignote, vous devriez voir le flux de données.
 
 Pour fermer la session screen, taper la combinaison de touche suivante dans le terminal :
 
-    Ctrl + a + k
-Pour détacher la terminal de la session screen, taper la combinaison suivante :
+    Ctrl + a k
+Pour détacher le terminal de la session screen, taper la combinaison suivante :
 
-    Ctrl + a + d
+    Ctrl + a d
 Pour se ratacher à la session screen, taper
 
     screen -r
