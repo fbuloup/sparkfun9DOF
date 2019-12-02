@@ -1,10 +1,10 @@
-* Un exemple de script sous Matlab
+# Un exemple de script sous Matlab
 
 ```matlab 
 % Clear workspace etc.
 clear all, close all, clc;
 % Open serial port 
-% Replace 'COM6' with proper COM port on your computer (Cf. "Gestionniare de Périphériques")
+% Replace 'COM6' with proper COM port on your computer (Cf. "Gestionnaire de Périphériques")
 serialObject = serial('COM6', 'BaudRate',115200,'DataBits',8, 'Parity', 'none', 'StopBits', 1,...
                       'Terminator', 'LF', 'TimeOut', 10);
 % Open port with handle to serial object
