@@ -1,5 +1,5 @@
 
-```Matlab 
+```matlab 
 % Clear workspace etc.
 clear all, close all, clc;
 % Open serial port 
