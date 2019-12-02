@@ -1,3 +1,5 @@
+* Un exemple de script sous Matlab
+
 ```matlab 
 % Clear workspace etc.
 clear all, close all, clc;
