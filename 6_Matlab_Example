@@ -1,5 +1,5 @@
 
-
+```Matlab 
 % Clear workspace etc.
 clear all, close all, clc;
 % Open serial port 
@@ -14,3 +14,4 @@ for n = 0:9
 end
 % Close serial port
 fclose(serialObject);
+```
