@@ -1,6 +1,6 @@
 # Un exemple de script sous Matlab
 
-Le script Matlab ci-dessous est un exemple simple qui montre comment communiquer avec le module et lire dix trames de données.
+Le script Matlab ci-dessous est un exemple simple, sous Windows, qui montre comment communiquer avec le module et lire dix trames de données.
 
 ```matlab 
 % Clear workspace etc.
