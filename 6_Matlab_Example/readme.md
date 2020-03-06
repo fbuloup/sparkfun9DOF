@@ -1,4 +1,4 @@
-# Matlab script example
+# Matlab scripts examples
 
 Following Matlab script is a simple Windows example showing how to communicate with IMU and to acquire ten data frames with Matlab.
 
