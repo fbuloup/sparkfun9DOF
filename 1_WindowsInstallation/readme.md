@@ -1,25 +1,25 @@
-# Guide d'installation du Sparkfun 9DOF sous Windows
+# Sparkfun 9DOF installation guide under Windows
 
-[Lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239)
+[Link to orignal document.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239)
 
-Les étapes sous windows :
+Windows steps are :
 
-1. Connection de la centrale (l'IMU) sur un port USB
-2. Optionnel : installation du driver (nécessite droits administrateur sur la machine)
-3. Téléchargement du Tera Term's et permiers tests
+1. Connect IMU to USB port
+2. Optional : install driver (you will need admin rights)
+3. Download Tera Term's and first tests
 
-## 1. Connection de la centrale sur un port USB
+## 1. Connect IMU to USB port
 Connecter le module sur un port USB de l'ordinateur et attendre qu'il soit bien reconnu par Windows.
 
-## 2. Optionnel : Installation du driver (nécessite droits administrateur sur la machine)
-Le module semble fonctionner même si le driver conseillé par Sparkfun n'est pas installé. En cas de problème, il est possible d'installer ce driver en ayant les droits administrateur. Vous pouvez donc terminer cette installation en suivant ce [lien vers le document qui a servi de base.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Localiser la portion du document qui présente l'installation du driver sous Windows, comme le montre l'image suivante :
+## 2. Optional : install driver (you will need admin rights)
+IMU seems to work properly even if driver adviced from Sparkfun is not installed. If any problem, it's possible to install this driver if you have admin rights, just follow this [link.](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=2.99420060.326620079.1517431239-364404356.1517431239) Locate document part which show Windows driver installation, as you can seen in image below :
 
 ![Windows driver](WindowsDriver.PNG)
 
-Puis cliquer sur "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" pour télécharger le driver. Toujours au même endroit, cliquer sur le lien "instructions in the SAMD21 Breakout hookup guide" pour suivre les instructions d'installation du driver. Si au final la petite DEL bleue du module clignote, vous devriez être sur la bonne voie.
+Then click on "DOWNLOAD THE SPARKFUN SAMD21 WINDOWS DRIVER" in order to download driver. Then click on "instructions in the SAMD21 Breakout hookup guide" to follow driver installation dteps. Finally if you see a small blue blinking led on PCB, you are on your good way !
 
-## 3. Téléchargement du Tera Term's et permiers tests
-S'il n'y a pas de terminal série sur votre système windows, vous pouvez télécharger Tera Term's en suivant ce [lien.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Lancer Tera Term's, choisir le bouton radio *Serial* et cliquer sur OK. Les données devraient s'afficher en temps réel dans le terminal. Un appui sur la barre d'espace permet de mettre en pause ou de reprendre l'acquisition des données. Utiliser, toujours dans ce terminal, les commandes suivantes pour modifier la configuration de l'acquisition :
+## 3. Tera Term's downloading and first step
+If you don't have any serial terminal on your Windows version, you can download Tera Term's following this [link.](https://osdn.net/projects/ttssh2/downloads/68719/teraterm-4.97.exe/) Start Tera Term's, choose radio bouton *Serial* then click OK. Data should print in real time into the terminal. Pushing space bar on your keyboard will pause or resume data acquistion. You can use following commands to configura the IMU :
 
     (SPACE) – Pause/resume serial port printing
     t - turn time readings on or off
@@ -34,4 +34,4 @@ S'il n'y a pas de terminal série sur votre système windows, vous pouvez télé
     G – Adjust gyroscope full-scale range. Cycles between ± 250, 500, 1000, 2000 dps.
     s – Enable/disable SD card logging
 
-Lorsque vous avez terminé de vous familiariser avec les différentes commandes, n'oubliez pas de fermer Tera Term's en notant le numéro du port série (COMx) que vous avez utilisé, ce sera utile dans les scripts Python.
+When you are finished with Tera Terms, don't forget to close it and to remember serial port number you've used (COMx), It will be usefull in Python and Matlab scripts.
