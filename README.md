@@ -1,17 +1,17 @@
-# Installation et test du Sparkfun 9DOF
+# Sparkfun 9DOF Test and installation
 
-Le Sparkfun 9DOF est une centrale inertielle à neuf degrès de libertés. Elle embarque trois types de capteurs :
+Sparkfun 9DOF is an inertial measurement unit with nine deegres of freedom. It includes three kinds of sensors :
 
-1. accéléromètre
-2. gyromètre
-3. magnétomètre
+1. accelerometer
+2. gyroscope
+3. magnetometer
 
-Ces capteurs délivrent leurs informations sur les trois axes de l'espace.
+Sensors give informations along the three space axis.
 
-Ce dépot présente les configurations et premiers tests d'utilisation de cette centrale. Pour reproduire ces tests, il vous suffit de suivre les trois étapes suivantes :
+This repository show how to configure and use this IMU. To reproduce these tests, just follow these steps :
 
-1. [Installation sous Windows](https://github.com/fbuloup/sparkfun9DOF/tree/master/1_WindowsInstallation)
-2. [Installation de Jupyter](https://github.com/fbuloup/sparkfun9DOF/tree/master/2_Jupyter)
-3. [Acquisition de données avec la centrale](https://github.com/fbuloup/sparkfun9DOF/tree/master/3_IMU_DACQ)
+1. [Installation under Windows](https://github.com/fbuloup/sparkfun9DOF/tree/master/1_WindowsInstallation)
+2. [Installation of Jupyter](https://github.com/fbuloup/sparkfun9DOF/tree/master/2_Jupyter)
+3. [Acquire data with unit](https://github.com/fbuloup/sparkfun9DOF/tree/master/3_IMU_DACQ)
 
-Si vous utilisez OSX ou Linux, remplacez l'étape 1 par l'étape 4. L'étape 5 permet de configurer les graphiques dans le notebook de Jupyter.
+If your are using OSX or Linux, just replace step 1 with step 4. Step 5 allows you to configure charts for Jupyter notebook.
