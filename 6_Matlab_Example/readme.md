@@ -20,7 +20,7 @@ end
 fclose(serialObject);
 ```
 
-This example is a bit more elaborate. It starts by closing any opened serial port in order to get rid of any connection problem when COM port is not properly closed. Then it accumulate all data frame into a matrix before writing it into a text fime.
+This example is a bit more elaborate. It starts by closing any opened serial port in order to get rid of any connection problem when COM port is not properly closed. Then it accumulates all data frames into a matrix before writing it into a text file.
 
 ```matlab
 %% Script to read streaming data comming from Sparkfun IMU 9 DOF
