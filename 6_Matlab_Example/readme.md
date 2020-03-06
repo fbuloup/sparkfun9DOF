@@ -1,6 +1,6 @@
 # Matlab script example
 
-Following Matlab script is a simple Windows example showing how to communicate with IMU and to acquire ten data frames.
+Following Matlab script is a simple Windows example showing how to communicate with IMU and to acquire ten data frames with Matlab.
 
 ```matlab 
 % Clear workspace etc.
