@@ -47,7 +47,7 @@ data = [];
 for n = 0:9
     % Read data from serial port in string format
     stringValue = fgets(serialObject);
-    % Convert string to double array
+    % Convert string to double vector
     doubleVectorValue = eval(['[',stringValue,']']);
     % Accumulate data in double matrix
     data = [data; doubleVectorValue];
