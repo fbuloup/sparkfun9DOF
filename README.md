@@ -15,3 +15,11 @@ This repository show how to configure and use this IMU. To reproduce these tests
 3. [Acquire data with IMU](https://github.com/fbuloup/sparkfun9DOF/tree/master/3_IMU_DACQ)
 
 If your are using OSX or Linux, just replace step 1 with step 4. Step 5 allows you to configure charts for Jupyter notebook. Step 6 shows two small matlab scipts.
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
